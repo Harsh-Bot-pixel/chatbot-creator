@@ -12,7 +12,7 @@ import numpy as np
 
 
 class Run():
-    def __init__(self, model_file_namem, lang_model="en_core_web_md"):
+    def __init__(self, model_file_name, lang_model="en_core_web_md"):
         self.model_name = model_file_name
         self.stemmer = PorterStemmer()
         try:
